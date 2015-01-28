@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://10.40.1.97:8080" />
+<link rel="selenium.base" href="http://localhost" />
 <title>login.json</title>
 </head>
 <body>
@@ -13,12 +13,12 @@
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>/bpc/login</td>
+	<td>/TMM_admin/login.html</td>
 	<td></td>
 </tr>
 <tr>
 	<td>assertTitle</td>
-	<td>BPC - LOGIN</td>
+	<td>BPC - Transaction Monitoring</td>
 	<td></td>
 </tr>
 <tr>
@@ -32,7 +32,7 @@
 	<td>admin</td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
+	<td>click</td>
 	<td>name=submit</td>
 	<td></td>
 </tr>
